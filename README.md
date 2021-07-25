@@ -1,6 +1,8 @@
 
 # Python-Class-99
 
+https://www.askpython.com/python-modules/shutil-module
+
 
 
 shutil.copy() method in Python is used to copy the content of the source file to the destination file or directory. It also preserves the file’s permission mode but other metadata of the file like the file’s creation and modification times is not preserved.
