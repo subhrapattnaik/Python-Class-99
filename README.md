@@ -102,4 +102,16 @@ shutil.rmtree(path)
 
 -----------------------------------------------------------------------
 
+The shutil module helps you automate copying files and directories. This saves the steps of opening, reading, writing and closing files when there is no actual processing, simply moving files.
 
+shutil. copy ( src , dest )
+Copy data and mode bits, basically the unix command cp src dst. If dest is a directory, a file with the same base name as src is created. If dest is a full file name, this is the destination file.
+
+shutil.copyfile ( src , dest )
+Copy data from src to dest . Both names must be files.
+
+shutil.copytree ( src , dest )
+Recursively copy the entire directory tree rooted at src to dest . dest must not already exist. Errors are reported to standard output.
+
+shutil.rmtree ( path )
+Recursively delete a directory tree rooted at path .
